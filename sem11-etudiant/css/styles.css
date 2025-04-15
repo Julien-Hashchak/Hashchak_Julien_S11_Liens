@@ -1,0 +1,146 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+body{
+    background-image: url(../images/fond/global.png);
+    font : 1.6rem Oranienbaum, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+
+/*------------------------------------------------------------------------------
+   Modules
+------------------------------------------------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+/*---------------------------------------
+                header
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+header, section{
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+}
+
+header a{
+    position: absolute;
+    bottom: 40px;
+    left: 0%;
+    right: 0%;
+}
+
+
+
+/*---------------------------------------
+                Section Générale
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+h1{
+    font: normal 10rem Monoton, sans-serif;
+}
+
+h2{
+    font: normal 3.2rem Monoton, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/*---------------------------------------
+                Section sports
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+.boite{
+    width: 800px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 span{
+    font: 1.7rem Oranienbaum, sans-serif;
+    text-transform: lowercase;
+}
+
+div.images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.images a{
+
+}
+
+/*---------------------------------------
+                Section web
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+
+
+
+
+/*---------------------------------------
+             Section photographie
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+
+
+/*---------------------------------------
+    Icône retour
+---------------------------------------*/
+
+
