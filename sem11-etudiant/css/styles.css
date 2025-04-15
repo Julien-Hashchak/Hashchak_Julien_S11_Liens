@@ -86,13 +86,6 @@ h2{
     text-transform: uppercase;
 }
 
-
-/*---------------------------------------
-                Section sports
- ---------------------------------------*/
-
-/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
 .boite{
     width: 800px;
     padding: 48px;
@@ -104,19 +97,42 @@ h2{
     align-items: center;
 }
 
+/*---------------------------------------
+                Section sports
+ ---------------------------------------*/
+
+/* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
+
+section.sports{
+    background-image: url(../images/fond/bicycles.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 h2 span{
     font: 1.7rem Oranienbaum, sans-serif;
     text-transform: lowercase;
 }
 
-div.images{
+.images{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+
+    gap: 20px;
 }
 
-div.images a{
+.images a{
+    width: 200px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
 
+.images img{
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 /*---------------------------------------
@@ -126,10 +142,28 @@ div.images a{
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
 
+section.web{
+    background-image: url(../images/fond/science.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.web img{
+    width: 50%;
+}
 
+.web .images span{
+    display: flex;
+}
 
-
+.lien_float{
+    margin-top: 50px;
+    background-color: darkred;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
 
 /*---------------------------------------
              Section photographie
@@ -137,7 +171,33 @@ div.images a{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
+.photos{
+    background-image: url(../images/fond/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.photos .boite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos img{
+    width: 30%;
+}
+
+.photos a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photos .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*---------------------------------------
     Icône retour
