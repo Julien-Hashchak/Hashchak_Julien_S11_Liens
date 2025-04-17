@@ -18,6 +18,7 @@ html{
 
 body{
     background-image: url(../images/fond/global.png);
+    background-attachment: fixed;
     font : 1.6rem Oranienbaum, sans-serif;
     color: white;
     background-color: rgba(0, 0, 0, 1);
@@ -26,6 +27,10 @@ body{
 a{
     color: white;
     text-decoration: none;
+}
+
+a[hreflang="ja"]::after {
+    content: " [en japonais]";
 }
 
 a:hover{
@@ -105,6 +110,7 @@ h2{
 
 section.sports{
     background-image: url(../images/fond/bicycles.png);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +150,7 @@ h2 span{
 
 section.web{
     background-image: url(../images/fond/science.png);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,6 +180,7 @@ section.web{
 
 .photos{
     background-image: url(../images/fond/fond.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -204,3 +212,28 @@ section.web{
 ---------------------------------------*/
 
 
+
+a.haut{
+    position: fixed;
+    bottom: 20px;
+    right: 15vh;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border: 4px solid white;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    scroll-behavior: smooth;
+}
+
+a.haut:hover{
+    color: darkorange;
+    border-color: darkorange ;
+}
